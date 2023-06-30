@@ -1,0 +1,39 @@
+
+.heading{
+    font-size: 25px;
+    width: 100%;
+    margin-top: 0px;
+
+}
+.note{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+body{
+background-image:url("Music Background Image.jpg") ;  
+background-size: cover;
+background-repeat: no-repeat;
+}
+.div_speed{
+float: left;
+}
+.div_speed_image,.div_volume_image{
+    width: 200px;
+    border-radius: 100px;
+}
+#speed,#volume{
+    font-size: 22px;
+    margin: 15px;
+}
+.div_volume{
+    float: right;
+}
+
+.play_button{
+    width: 180px;
+    font-size: 20px;
+}
+canvas{
+    border:5px solid white ;
+    border-radius: 25px;
+}
